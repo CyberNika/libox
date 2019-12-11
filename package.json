@@ -1,9 +1,9 @@
 {
   "name": "libox",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "a box to create library.",
   "bin": {
-    "libox": "bin/libox"
+    "libox": "bin/libox.js"
   },
   "scripts": {
     "lint": "eslint '{bin,lib}/**/*.js'",
