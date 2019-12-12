@@ -1,7 +1,7 @@
 {
   "name": "libox",
-  "version": "0.1.1",
-  "description": "a box to create library.",
+  "version": "0.1.2",
+  "description": "A CLI tool to create library.",
   "bin": {
     "libox": "bin/libox.js"
   },
@@ -20,6 +20,7 @@
     "chalk": "^3.0.0",
     "commander": "^4.0.1",
     "docz": "^2.1.1",
+    "download-git-repo": "^3.0.2",
     "ejs": "^3.0.1",
     "fs-extra": "^8.1.0",
     "inquirer": "^7.0.0"

@@ -7,13 +7,6 @@ program
   .version(`libox ${require('../package.json').version}`)
   .usage('<command> [options]');
 
-// program
-//   .command('dev')
-//   .description('start a dev server')
-//   .action(() => {
-//     require('../lib/dev')()
-//   })
-
 program
   .command('init [dir] [options]')
   .description('init a project from templates')
