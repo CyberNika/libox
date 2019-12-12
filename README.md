@@ -8,7 +8,7 @@
 
 [![NPM][image-npm]][url-npm]
 
-CLI to create library.
+A CLI tool to create library..
 
 ## 使用
 
