@@ -8,18 +8,33 @@
 
 [![NPM][image-npm]][url-npm]
 
-A CLI tool to create library..
+A CLI tool to create library.
 
 ## 使用
 
 ``` bash
 $ npm i -g libox
-$ libox init
+$ libox init [dir]
 ```
+
+## 模板
+
+https://github.com/libox-templates
 
 ## 发布日志
 
 详见 [Releases][url-releases]
+
+## TODOs
+
+> 尽可能隐藏依赖和细节
+
+- [ ] 内置 `docz`
+- [ ] 收敛 `docz` 和 `gatsby` 配置文件
+- [ ] 内置 `test`
+- [ ] 内置 `rollup`
+- [ ] 自定义文档主题
+- [ ] 更多模板
 
 
 [badge-npm-version]: https://img.shields.io/npm/v/libox
