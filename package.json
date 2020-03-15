@@ -12,6 +12,7 @@
     "lint:fix": "eslint --fix 'src/**/*.ts'",
     "prettier": "prettier --write '**/*.{md,json}'",
     "commit": "git-cz",
+    "prepublishOnly": "npm run lint && npm run build",
     "release": "standard-version",
     "test": "jest",
     "test:coverage": "jest --coverage"
@@ -21,6 +22,10 @@
     "scaffolding",
     "template",
     "startkit"
+  ],
+  "files": [
+    "dist",
+    "src"
   ],
   "author": "heynext <heynext.xyz@gmail.com>",
   "dependencies": {

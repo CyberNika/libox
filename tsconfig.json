@@ -12,8 +12,7 @@
       "@/*": ["src/*"]
     },
     "allowSyntheticDefaultImports": true,
-    "resolveJsonModule": true,
-    "typeRoots": ["./node_modules/@types", "./types"]
+    "resolveJsonModule": true
   },
   "exclude": ["node_modules", "dist", "typings", "**/__test__"],
   "include": ["src"]
