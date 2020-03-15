@@ -12,6 +12,7 @@
     "lint:fix": "eslint --fix 'src/**/*.ts'",
     "prettier": "prettier --write '**/*.{md,json}'",
     "commit": "git-cz",
+    "release": "standard-version",
     "test": "jest",
     "test:coverage": "jest --coverage"
   },
@@ -33,7 +34,8 @@
     "yaml": "^1.8.2"
   },
   "devDependencies": {
-    "@commitlint/core": "^8.3.5",
+    "@commitlint/cli": "^8.3.5",
+    "@commitlint/config-conventional": "^8.3.4",
     "@types/download": "^6.2.4",
     "@types/ejs": "^3.0.1",
     "@types/fs-extra": "^8.1.0",
@@ -43,9 +45,7 @@
     "@types/yaml": "^1.2.0",
     "@typescript-eslint/eslint-plugin": "^2.23.0",
     "@typescript-eslint/parser": "^2.23.0",
-    "commitizen": "^4.0.3",
-    "commitlint-config-gitmoji": "^1.0.1",
-    "cz-emoji": "^1.2.1",
+    "cz-conventional-changelog": "^3.1.0",
     "eslint": "^6.7.2",
     "eslint-config-prettier": "^6.10.0",
     "eslint-plugin-prettier": "^3.1.2",
@@ -54,6 +54,7 @@
     "lint-staged": "^9.5.0",
     "ora": "^4.0.3",
     "prettier": "^1.19.1",
+    "standard-version": "^7.1.0",
     "ts-jest": "^25.2.1",
     "ts-node": "^8.6.2",
     "typescript": "^3.8.3"
@@ -62,7 +63,7 @@
     "hooks": {
       "pre-commit": "lint-staged",
       "pre-push": "lint-staged",
-      "commit-msg": "commitlint -e $GIT_PARAMS"
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
     }
   },
   "lint-staged": {
@@ -77,8 +78,11 @@
   },
   "config": {
     "commitizen": {
-      "path": "cz-emoji"
+      "path": "cz-conventional-changelog"
     }
+  },
+  "commitlint": {
+    "extends": ["@commitlint/config-conventional"]
   },
   "license": "MIT",
   "homepage": "https://github.com/heynext/libox",
