@@ -1,0 +1,7 @@
+- name: react-component
+  description: React 组件开发，Docz + TypeScript + Less + Jest
+  github: libox-templates/react-component
+
+- name: typescript
+  description: TypeScript 开发，Docz + TypeScript + Less + Jext
+  github: libox-templates/typescript

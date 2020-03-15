@@ -1,13 +1,19 @@
-.rpt2_cache
-.DS_Store
-node_modules
-templates
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
-# Log files
+# dependencies
+node_modules
 npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
+yarn-error.log
 yarn.lock
+
+# production
+dist
+templates
+.templates
+
+# misc
+.DS_Store
+coverage
 
 # Editor directories and files
 .idea

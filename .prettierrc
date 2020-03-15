@@ -1,0 +1,8 @@
+trailingComma: es5
+tabWidth: 2
+useTabs: false
+semi: true
+arrowParens: always
+singleQuote: false
+proseWrap: preserve
+printWidth: 80
