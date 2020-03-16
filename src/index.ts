@@ -45,7 +45,12 @@ program
     };
 
     update(initOptions);
-    await install(process.cwd());
+
+    console.log("");
+    console.log(chalk.yellow(`   $ rm -fr node_modules package-lock.json`));
+    console.log(chalk.yellow(`   $ npm i`));
+    console.log(chalk.yellow(`   $ npm start`));
+    console.log("");
   });
 
 program.parse(process.argv);
