@@ -25,7 +25,8 @@
   ],
   "files": [
     "dist",
-    "src"
+    "src",
+    "templates.yml"
   ],
   "author": "heynext <heynext.xyz@gmail.com>",
   "dependencies": {
