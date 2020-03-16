@@ -112,4 +112,10 @@ const generateProject = (
   console.log(chalk.blueBright(" ✔ 解析模板"));
 };
 
-export { getTemplates, downloadTemplate, getTemplateConfig, generateProject };
+export {
+  getTemplates,
+  downloadTemplate,
+  getTemplateConfig,
+  generateProject,
+  getTemplatePath,
+};
