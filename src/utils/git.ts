@@ -11,7 +11,7 @@ const clone = (repo: string, dest: string, options?: CloneOptions) => {
   // const regex = /^(?:(github|gitlab|bitbucket):)?(?:(.+):)?([^/]+)\/([^#]+)(?:#(.+))?$/;
   // const match = regex.exec(repo);
   // const type = match?.[1] || "github";
-  const url = `https://github.com/${repo}/archive/master.zip`;
+  const url = `https://github.com/${repo}/archive/next.zip`;
 
   const downloadOptions = {
     extract: true,
