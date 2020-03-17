@@ -17,7 +17,7 @@ interface InitOptions {
   templateDir?: string;
 }
 
-const init = async (dir: string, options: InitOptions = {}) => {
+const init = async (dir = "", options: InitOptions = {}) => {
   if (!dir) {
     const { yes } = await prompt([
       {
