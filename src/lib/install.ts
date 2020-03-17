@@ -2,7 +2,7 @@ import path from "path";
 import chalk from "chalk";
 import { spawnSync } from "child_process";
 
-const install = async (dir: string) => {
+const install = async (dir = "") => {
   console.log("");
   console.log(chalk.blueBright(" ○ 安装依赖"));
   console.log("");
