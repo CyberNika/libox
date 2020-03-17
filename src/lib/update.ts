@@ -34,7 +34,7 @@ const update = async (options: UpdateOptions = {}) => {
 
   const { update } = require(templatePath);
 
-  update(PROJECT_ROOT, { filters });
+  await update(PROJECT_ROOT, { filters });
 };
 
 export default update;

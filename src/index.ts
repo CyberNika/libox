@@ -44,7 +44,7 @@ program
       templateDir: options.templateDir,
     };
 
-    update(initOptions);
+    await update(initOptions);
 
     console.log("");
     console.log(chalk.yellow(`   $ rm -fr node_modules package-lock.json`));

@@ -1,6 +1,6 @@
 - name: react-component
   description: React 组件开发，TypeScript + Dumi + Less + Jest
-  github: libox-templates/react-component
+  github: libox-templates/react-component#next
 
 # - name: react-lerna
 #   description: Lerna React 开发，TypeScript + Dumi + Jest
@@ -22,6 +22,6 @@
 #   description: CLI 开发，TypeScript + Jest
 #   github: libox-templates/cli
 
-# - name: libox-template
-#   description: libox 模板开发
-#   github: libox-templates/libox-template
+- name: libox-template
+  description: libox 模板开发
+  github: libox-templates/libox-template

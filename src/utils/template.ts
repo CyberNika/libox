@@ -4,7 +4,7 @@ import yaml from "yaml";
 import ejs from "ejs";
 import chalk from "chalk";
 
-import { clone } from "./git";
+import { download } from "./git";
 import { TEMPLATES, TEMPLATES_ROOT } from "../constants";
 
 interface PromptChoice {
@@ -40,7 +40,7 @@ const downloadTemplate = (template: string) => {
 
   if (!templateData) return Promise.reject("模板不存在");
 
-  return clone(templateData.github, path.join(TEMPLATES_ROOT, template));
+  return download(templateData.github, path.join(TEMPLATES_ROOT, template));
 };
 
 const getTemplateConfig = (template: string, root?: string): TemplateConfig => {
