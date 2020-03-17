@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### 1.0.1 (2020-03-17)
+
+### Bug Fixes
+
+- **init:** give dir default value ([#2](https://github.com/heynext/libox/issues/2)) ([c729b83](https://github.com/heynext/libox/commit/c729b83004db3436b209852ccc00db432df3bd02))
+
 ## [1.0.0](https://github.com/heynext/libox/compare/v1.0.0-alpha.1...v1.0.0) (2020-03-17)
 
 ### Bug Fixes
