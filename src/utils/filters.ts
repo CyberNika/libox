@@ -6,6 +6,10 @@ const pascal = (val: string) => {
     .replace(/^(\w)/g, (_, $1) => $1.toUpperCase());
 };
 
+const camel = (val: string) => {
+  return val.replace(/-(\S)/g, (_, $1) => $1.toUpperCase());
+};
+
 const authorSplit = (author: string) => {
   const regex = /^(.+) <(\S+)>$/;
   const match = author.match(regex) || [];
@@ -22,6 +26,7 @@ const authorJoin = ({ name, email }: { name: string; email: string }) => {
 
 const filters = {
   pascal,
+  camel,
   authorSplit,
   authorJoin,
 };
