@@ -40,7 +40,11 @@ const downloadTemplate = (template: string) => {
 
   if (!templateData) return Promise.reject("模板不存在");
 
-  return download(templateData.github, path.join(TEMPLATES_ROOT, template));
+  const templatePath = path.join(TEMPLATES_ROOT, template);
+
+  fs.emptyDirSync(templatePath);
+
+  return download(templateData.github, templatePath);
 };
 
 const getTemplateConfig = (template: string, root?: string): TemplateConfig => {
