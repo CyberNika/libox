@@ -2,13 +2,19 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
-### [1.0.2](https://github.com/heynext/libox/compare/v1.0.1...v1.0.2) (2020-03-17)
+## [1.1.0](https://github.com/heynext/libox/compare/v1.0.2...v1.1.0) (2020-03-21)
+
+### Features
+
+- **template:** support TypeScript template ([#4](https://github.com/heynext/libox/issues/4)) ([eb7c71d](https://github.com/heynext/libox/commit/eb7c71d22b8faf079efacd35ec5e9f674a103b27))
+
+## [1.0.2](https://github.com/heynext/libox/compare/v1.0.1...v1.0.2) (2020-03-17)
 
 ### Bug Fixes
 
 - **install:** give dir default value ([#3](https://github.com/heynext/libox/issues/3)) ([6cdb34c](https://github.com/heynext/libox/commit/6cdb34c06bb13acc0a12f751e516f1811e8e3412))
 
-### 1.0.1 (2020-03-17)
+## 1.0.1 (2020-03-17)
 
 ### Bug Fixes
 
