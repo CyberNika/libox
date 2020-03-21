@@ -12,6 +12,17 @@ A CLI tool to create library.
 
 ## 使用
 
+### 全局安装
+
+```bash
+$ npm i -g libox
+$ libox init [dir]
+```
+
+### 直接执行
+
+> 请注意，npx 可能会有缓存
+
 ```bash
 $ npx libox init [dir]
 ```
