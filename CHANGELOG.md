@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.2.0](https://github.com/heynext/libox/compare/v1.0.2...v1.2.0) (2020-03-25)
+
+
+### Features
+
+* **template:** add cli templates & rename typescript to library ([8232d53](https://github.com/heynext/libox/commit/8232d53d713ea59faf971f0f83aa41aea3261511))
+* **template:** support TypeScript template ([#4](https://github.com/heynext/libox/issues/4)) ([eb7c71d](https://github.com/heynext/libox/commit/eb7c71d22b8faf079efacd35ec5e9f674a103b27))
+
 ## [1.1.0](https://github.com/heynext/libox/compare/v1.0.2...v1.1.0) (2020-03-21)
 
 ### Features
