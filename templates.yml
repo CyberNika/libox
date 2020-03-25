@@ -6,9 +6,9 @@
   description: Lerna React 开发，TypeScript + Dumi + Jest
   github: libox-templates/react-lerna
 
-- name: typescript
-  description: TypeScript 开发，TypeScript + Dumi + Jest
-  github: libox-templates/typescript#next
+- name: library
+  description: library 开发，TypeScript + Dumi + Jest
+  github: libox-templates/library
 
 # - name: typescript-lerna
 #   description: Lerna TypeScript 开发，TypeScript + Dumi + Jest
@@ -18,9 +18,13 @@
 #   description: 脚手架开发，TypeScript + Jest
 #   github: libox-templates/scaffolding
 
-# - name: cli
-#   description: CLI 开发，TypeScript + Jest
-#   github: libox-templates/cli
+- name: cli
+  description: CLI 开发，TypeScript + Jest
+  github: libox-templates/cli
+
+- name: cli-lerna
+  description: lerna CLI 开发，TypeScript + Jest
+  github: libox-templates/cli-lerna
 
 - name: libox-template
   description: libox 模板开发
